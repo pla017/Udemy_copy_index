@@ -1,0 +1,1 @@
+export { default } from "file:///Users/linjianhai/mycode/Udemy_copy_index/udemy-clone/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
