@@ -14,13 +14,18 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 interface _GlobalComponents {
+  'CourseCard': typeof import("../../components/CourseCard.vue").default
   'CourseContent': typeof import("../../components/CourseContent.vue").default
+  'CourseDescription': typeof import("../../components/CourseDescription.vue").default
   'CourseInfo': typeof import("../../components/CourseInfo.vue").default
+  'CourseItem': typeof import("../../components/CourseItem.vue").default
   'DetailTopHeadDesc': typeof import("../../components/DetailTopHeadDesc.vue").default
   'Footer': typeof import("../../components/Footer.vue").default
   'Header': typeof import("../../components/Header.vue").default
   'InstructorSection': typeof import("../../components/InstructorSection.vue").default
   'PriceCard': typeof import("../../components/PriceCard.vue").default
+  'Programmer': typeof import("../../components/Programmer.vue").default
+  'StudentBuy': typeof import("../../components/StudentBuy.vue").default
   'WhatYoullLearn': typeof import("../../components/WhatYoullLearn.vue").default
   'NuxtWelcome': typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue").default
   'NuxtLayout': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout").default
@@ -45,13 +50,18 @@ interface _GlobalComponents {
   'Html': typeof import("../../node_modules/nuxt/dist/head/runtime/components").Html
   'Body': typeof import("../../node_modules/nuxt/dist/head/runtime/components").Body
   'NuxtIsland': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island").default
+  'LazyCourseCard': LazyComponent<typeof import("../../components/CourseCard.vue").default>
   'LazyCourseContent': LazyComponent<typeof import("../../components/CourseContent.vue").default>
+  'LazyCourseDescription': LazyComponent<typeof import("../../components/CourseDescription.vue").default>
   'LazyCourseInfo': LazyComponent<typeof import("../../components/CourseInfo.vue").default>
+  'LazyCourseItem': LazyComponent<typeof import("../../components/CourseItem.vue").default>
   'LazyDetailTopHeadDesc': LazyComponent<typeof import("../../components/DetailTopHeadDesc.vue").default>
   'LazyFooter': LazyComponent<typeof import("../../components/Footer.vue").default>
   'LazyHeader': LazyComponent<typeof import("../../components/Header.vue").default>
   'LazyInstructorSection': LazyComponent<typeof import("../../components/InstructorSection.vue").default>
   'LazyPriceCard': LazyComponent<typeof import("../../components/PriceCard.vue").default>
+  'LazyProgrammer': LazyComponent<typeof import("../../components/Programmer.vue").default>
+  'LazyStudentBuy': LazyComponent<typeof import("../../components/StudentBuy.vue").default>
   'LazyWhatYoullLearn': LazyComponent<typeof import("../../components/WhatYoullLearn.vue").default>
   'LazyNuxtWelcome': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue").default>
   'LazyNuxtLayout': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout").default>

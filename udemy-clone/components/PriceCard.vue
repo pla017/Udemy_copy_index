@@ -208,8 +208,7 @@
       <!-- 团队标签页内容 -->
       <div v-if="activeTab === 'team'" class="p-4">
         <div class="mb-4">
-          <span class="text-2xl font-bold">Udemy</span>
-          <span class="text-2xl text-[#a435f0]"> business</span>
+          <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-ub.svg" class="w-[141px] h-6" alt="Udemy Business">
         </div>
 
         <p class="text-sm text-gray-700 mb-4">
