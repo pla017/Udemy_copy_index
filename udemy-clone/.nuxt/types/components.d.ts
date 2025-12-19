@@ -14,6 +14,7 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 interface _GlobalComponents {
+  'Course': typeof import("../../components/Course.vue").default
   'CourseCard': typeof import("../../components/CourseCard.vue").default
   'CourseContent': typeof import("../../components/CourseContent.vue").default
   'CourseDescription': typeof import("../../components/CourseDescription.vue").default
@@ -24,6 +25,7 @@ interface _GlobalComponents {
   'Footer': typeof import("../../components/Footer.vue").default
   'Header': typeof import("../../components/Header.vue").default
   'InstructorSection': typeof import("../../components/InstructorSection.vue").default
+  'MoreCourse': typeof import("../../components/MoreCourse.vue").default
   'PriceCard': typeof import("../../components/PriceCard.vue").default
   'Programmer': typeof import("../../components/Programmer.vue").default
   'StudentBuy': typeof import("../../components/StudentBuy.vue").default
@@ -52,6 +54,7 @@ interface _GlobalComponents {
   'Html': typeof import("../../node_modules/nuxt/dist/head/runtime/components").Html
   'Body': typeof import("../../node_modules/nuxt/dist/head/runtime/components").Body
   'NuxtIsland': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island").default
+  'LazyCourse': LazyComponent<typeof import("../../components/Course.vue").default>
   'LazyCourseCard': LazyComponent<typeof import("../../components/CourseCard.vue").default>
   'LazyCourseContent': LazyComponent<typeof import("../../components/CourseContent.vue").default>
   'LazyCourseDescription': LazyComponent<typeof import("../../components/CourseDescription.vue").default>
@@ -62,6 +65,7 @@ interface _GlobalComponents {
   'LazyFooter': LazyComponent<typeof import("../../components/Footer.vue").default>
   'LazyHeader': LazyComponent<typeof import("../../components/Header.vue").default>
   'LazyInstructorSection': LazyComponent<typeof import("../../components/InstructorSection.vue").default>
+  'LazyMoreCourse': LazyComponent<typeof import("../../components/MoreCourse.vue").default>
   'LazyPriceCard': LazyComponent<typeof import("../../components/PriceCard.vue").default>
   'LazyProgrammer': LazyComponent<typeof import("../../components/Programmer.vue").default>
   'LazyStudentBuy': LazyComponent<typeof import("../../components/StudentBuy.vue").default>

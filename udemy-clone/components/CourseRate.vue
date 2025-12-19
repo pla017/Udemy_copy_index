@@ -61,6 +61,12 @@
         </div>
       </div>
     </div>
+
+    <button
+      class="hover:bg-[#efe8fa] w-[120px] rounded-md p-2 border border-[#6d28d2] text-[#6d28d2] font-medium text-sm"
+    >
+      显示所有评论
+    </button>
   </div>
 </template>
 <script setup>

@@ -19,6 +19,7 @@
         <Programmer />
         <TeachertDesc />
         <CourseRate />
+        <MoreCourse />
       </div>
     </div>
   </div>
