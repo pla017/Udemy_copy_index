@@ -17,6 +17,8 @@
         <StudentBuy />
 
         <Programmer />
+        <TeachertDesc />
+        <CourseRate />
       </div>
     </div>
   </div>
