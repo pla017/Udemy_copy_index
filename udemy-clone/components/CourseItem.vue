@@ -18,7 +18,7 @@
         </span>
         <span class="text-xs text-[#206241] font-bold after:content-['â—'] after:text-[0.6rem] after:mx-1">总共 17.5 小时</span>
         <span class="text-xs text-gray-400">•</span>
-        <span class="text-xs text-gray-600">更新日期 2025/1111</span>
+        <span class="text-xs text-gray-600">更新日期 2025/11</span>
       </div>
     </div>
 
